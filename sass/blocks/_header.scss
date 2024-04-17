@@ -1,0 +1,37 @@
+.header__container {
+  padding-top: 18px;
+  margin-bottom: 80px;
+  align-items: center;
+
+  .header__logo {
+    margin-left: 193px;
+    margin-right: 400px;
+  }
+
+  .header__nav {
+    margin-right: 70px;
+  }
+
+  .nav__list {
+    gap: 30px;
+  }
+
+  .nav__link {
+    font-size: 20px;
+    font-weight: 400;
+    color: $text-color;
+    transition: color 0.3s ease-in-out;
+
+    &:focus {
+      color: #DCD08D;
+    }
+
+    &:hover {
+      color: #DBBD60;
+    }
+
+    &:active {
+      color: #DCD08D;
+    }
+  }
+}
